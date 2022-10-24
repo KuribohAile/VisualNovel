@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 093a9b576cbea4a4388d04c935aa4a5e, type: 3}
+  m_Name: Susie
+  m_EditorClassIdentifier: 
+  nomPerso: Susie
+  couleurText: {r: 0.5754717, g: 0.06786222, b: 0.5421084, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: 5c2c2bc46d3d37c4789fb87f98f0bc8d, type: 3}
+  - {fileID: 21300000, guid: db81564a6e6a5834d87cc9052b0a72db, type: 3}
+  prefab: {fileID: 4776159586790935920, guid: 29b90f803326d1e4686d66546cbb887c, type: 3}

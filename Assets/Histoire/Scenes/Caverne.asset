@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aabe3fc1c0cb9b48bb06dfa7462714a, type: 3}
+  m_Name: Caverne
+  m_EditorClassIdentifier: 
+  phrases:
+  - text: "Apr\xE8s avoir fuit leurs assaillants, nos deux amis se rend\xE8rent vite
+      compte qu'ils \xE9taient perdu."
+    personnage: {fileID: 11400000, guid: ae0bed6c302089b4c93c8d0de9728118, type: 2}
+    actions: []
+  - text: Kof... Kof... J'ai bien cru qu'on allait y rester...
+    personnage: {fileID: 11400000, guid: 03f19bd405cc2af4f83403d9e0460576, type: 2}
+    actions:
+    - personnage: {fileID: 11400000, guid: 03f19bd405cc2af4f83403d9e0460576, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: 60, y: -37}
+      moveSpeed: 0
+  - text: "Piouf... Ces poules mouill\xE9es n'ont pas eu le courage de nous poursuivre
+      ici"
+    personnage: {fileID: 11400000, guid: a044b4ff93da4414abf248627847acdf, type: 2}
+    actions:
+    - personnage: {fileID: 11400000, guid: a044b4ff93da4414abf248627847acdf, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 163.3, y: -48.8}
+      moveSpeed: 0
+  - text: C'est une bonne chose en effet mais comment allons nous en sortir ? C..C'est
+      lugubre et je n'ai pas envie d'y rester.
+    personnage: {fileID: 11400000, guid: 03f19bd405cc2af4f83403d9e0460576, type: 2}
+    actions:
+    - personnage: {fileID: 11400000, guid: a044b4ff93da4414abf248627847acdf, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 163.3, y: -48.8}
+      moveSpeed: 0
+  - text: "Meh, fais pas ta chochotte. Tant que la grande Susie est l\xE0, personne
+      viendra nous chercher des noises."
+    personnage: {fileID: 11400000, guid: a044b4ff93da4414abf248627847acdf, type: 2}
+    actions:
+    - personnage: {fileID: 11400000, guid: a044b4ff93da4414abf248627847acdf, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 163.3, y: -48.8}
+      moveSpeed: 0
+  - text: "F..Facile pour toi ! Tu es bal\xE8ze et tu menaces tout le monde avec
+      tes dents."
+    personnage: {fileID: 11400000, guid: 03f19bd405cc2af4f83403d9e0460576, type: 2}
+    actions:
+    - personnage: {fileID: 11400000, guid: a044b4ff93da4414abf248627847acdf, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 163.3, y: -48.8}
+      moveSpeed: 0
+  - text: "Hmpf, les gens adorent mon sourire. D\xE8s que j'en fais un, tout le monde
+      hurle de joie. Hahahah !!!"
+    personnage: {fileID: 11400000, guid: a044b4ff93da4414abf248627847acdf, type: 2}
+    actions:
+    - personnage: {fileID: 11400000, guid: a044b4ff93da4414abf248627847acdf, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 163.3, y: -48.8}
+      moveSpeed: 0
+  - text: "Mouais j'ai des doutes l\xE0 dessus. Menfin bref, on doit sortir de cette
+      caverne au plus vite."
+    personnage: {fileID: 11400000, guid: 03f19bd405cc2af4f83403d9e0460576, type: 2}
+    actions:
+    - personnage: {fileID: 11400000, guid: a044b4ff93da4414abf248627847acdf, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 163.3, y: -48.8}
+      moveSpeed: 0
+  - text: Ouais t'as pas tort. Allons y.
+    personnage: {fileID: 11400000, guid: a044b4ff93da4414abf248627847acdf, type: 2}
+    actions:
+    - personnage: {fileID: 11400000, guid: a044b4ff93da4414abf248627847acdf, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 163.3, y: -48.8}
+      moveSpeed: 0
+  - text: "Ils se avanc\xE8rent donc un peu plus dans la caverne, avec l'espoir de
+      trouver rapidement une sortie."
+    personnage: {fileID: 11400000, guid: ae0bed6c302089b4c93c8d0de9728118, type: 2}
+    actions:
+    - personnage: {fileID: 11400000, guid: a044b4ff93da4414abf248627847acdf, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 163.3, y: -48.8}
+      moveSpeed: 0
+  fond: {fileID: 21300000, guid: 60e680f03d056fa41b7e53d6b9cb8eff, type: 3}
+  sceneSuivante: {fileID: 11400000, guid: 7ec445d3286af4e4ab99e9b439aba3b9, type: 2}
